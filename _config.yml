@@ -112,7 +112,7 @@ deploy:
   # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
-  enable: false #开关插件版看板娘
+  enable: true #开关插件版看板娘
   scriptFrom: local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
@@ -215,4 +215,10 @@ electric_clock:
     name: sticky_layout
     index: 0
   temple_html: '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img id="card-clock-loading" src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-clock/clock/images/weather/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading" class="entered loading"></div></div></div></div></div>'
+
+deploy:
+  type: 'git'
+  repo: https://github.com/Karensky/Karensky.github.io
+  branch: gh-pages
+
 
